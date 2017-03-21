@@ -1,0 +1,44 @@
+p {
+    color: #777;
+}
+.nav{
+    .menu{
+        li>a{
+            display: inline-block;
+        }
+    }
+}
+.timer, .countdown {
+    text-align: center;
+
+    .clock {
+        width: 13rem;
+        height: 13rem;
+        border: 2px solid #5F93B9;
+        background-color: #B7CEE0;
+        border-radius: 50%;
+        color: white;
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+    .controllers{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        input{
+
+        }
+        button{
+            min-width: 12em;
+            &:not(:last-child){
+                margin-right: 1em;
+            }
+        }
+    }
+}
